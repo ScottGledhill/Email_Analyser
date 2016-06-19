@@ -1,4 +1,6 @@
 
+
+
 Email data analysing tool, designed to capture event data, store and display.
 
 To use this application please follow instructions:
@@ -15,9 +17,9 @@ Assuming you have Rails installed
 
 In new terminal window;
 
-- Run 'bin/rake post_data' to fill with email data.
-
 - Run 'bin/rake db:create' to create the databases
+
+- Run 'bin/rake post_data' to fill with email data.
 
 - Run 'rspec' to check tests
 
