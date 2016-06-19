@@ -1,7 +1,7 @@
 
 Email data analysing tool, designed to capture event data, store and display.
 
-Assuming you have Rails installed,
+Assuming you have Rails installed;
 
 To use this application please follow instructions:
 
