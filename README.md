@@ -21,6 +21,9 @@ In new terminal window;
 
 - Run 'rspec' to check tests
 
-- Open browser at http://localhost:3000/
+- Open browser at [http://localhost:3000](http://localhost:3000)
 
 ![Screenshot](https://github.com/ScottGledhill/Email_Analyser/blob/master/app/assets/images/screenshots/page.jpg?raw=true)
+
+-------------
+[Scott Gledhill](https://github.com/ScottGledhill)
