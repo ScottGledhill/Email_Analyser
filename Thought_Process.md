@@ -24,3 +24,9 @@ tried many ways to fix, in the end changed to rspec-rails beta version, and work
 
 Added tests to check model interacts with database correctly, checked for columns
 and for calculations, ran migration to create Emails database, with columns necessary.
+
+Used scope in email model, previously have used class methods, but this seemed
+cleaner and prettier, set up data for displaying in view.
+
+will now write Capybara tests for checking integration through to view
+and then write simple view.
