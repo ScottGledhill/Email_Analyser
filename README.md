@@ -1,24 +1,24 @@
 
 Email data analysing tool, designed to capture event data, store and display.
 
+Assuming you have Rails installed,
+
 To use this application please follow instructions:
 
 Open terminal/iTerm 
 
 Clone repository using git clone 'git@github.com:ScottGledhill/Email_Analyser.git'
 
-go into project folder
+Go into project folder and run 'bundle install', if there are any outdated gems, run 'bundle update'
 
-run 'bundle install', if any outdated gems, run 'bundle update'
-
-run 'rails s' to start server
+Run 'rails s' to start server
 
 In new terminal window;
 
-run 'bin/rake post_data' to fill with email data.
+Run 'bin/rake post_data' to fill with email data.
 
-run 'bin/rake db:create' to create the databases
+Run 'bin/rake db:create' to create the databases
 
-open browser at http://localhost:3000/
+Open browser at http://localhost:3000/
 
 ![screenshot](app/assets/images/screenshots/page.png)
