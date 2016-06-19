@@ -5,9 +5,9 @@ Assuming you have Rails installed,
 
 To use this application please follow instructions:
 
-Open terminal/iTerm 
+Open command line(terminal/iterm)
 
-Clone repository using git clone 'git@github.com:ScottGledhill/Email_Analyser.git'
+Clone repository using 'git clone git@github.com:ScottGledhill/Email_Analyser.git'
 
 Go into project folder and run 'bundle install', if there are any outdated gems, run 'bundle update'
 
@@ -19,6 +19,8 @@ Run 'bin/rake post_data' to fill with email data.
 
 Run 'bin/rake db:create' to create the databases
 
+Run 'rspec' to check tests
+
 Open browser at http://localhost:3000/
 
-![screenshot](app/assets/images/screenshots/page.png)
+![Screenshot](https://github.com/ScottGledhill/Email_Analyser/blob/master/app/assets/images/screenshots/page.jpg?raw=true)
