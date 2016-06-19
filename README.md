@@ -1,5 +1,7 @@
+Email Data Analysing Tool
+=================
 
-Email data analysing tool, designed to capture event data, store and display.
+designed to capture event data, store and display.
 
 To use this application please follow instructions:
 
