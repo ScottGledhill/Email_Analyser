@@ -58,8 +58,8 @@ def send_request(request_body)
      'Accept' => 'application/json'
    }
   )
-  p request.body = request_body.to_json
-  p http = Net::HTTP.new(uri.host, uri.port)
-  p http.use_ssl = true if uri.scheme == 'https'
-  p resp = http.request(request)
+ request.body = request_body.to_json
+  http = Net::HTTP.new(uri.host, uri.port)
+  http.use_ssl = true if uri.scheme == 'https'
+  resp = http.request(request)
 end

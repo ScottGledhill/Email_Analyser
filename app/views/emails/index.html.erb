@@ -1,7 +1,3 @@
-"hello"
-
-  <%=@emails %>
-
 <h1>Email Statistics</h1>
 <table class="totals">
   <thead>
@@ -11,3 +7,52 @@
     <th>
       Sent Total
     </th>
+    <th>
+      Opened Total
+    </th>
+    <th>
+      Clicked Total
+    </th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <%= @emails.total_emails %>
+      </td>
+      <td>
+        <%= @emails.sent_total %>
+      </td>
+      <td>
+        <%= @emails.opened_total %>
+      </td>
+      <td>
+        <%= @emails.clicked_total %>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br />
+<table>
+  <thead>
+    <th>
+      Opened Rate
+    </th>
+    <th>
+      Clicked Rate
+    </th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <% @email_types.each do |email_type| %>
+          <%= email_type %>: <span class="right"><%= @emails.opened_rate(email_type) %>%</span><br />
+        <% end %>
+      </td>
+      <td>
+        <% @email_types.each do |email_type| %>
+          <%= email_type %>: <span class="right"><%= @emails.click_rate(email_type) %>%</span><br />
+        <% end %>
+      </td>
+    </tr>
+  </tbody>
+</table>
